@@ -6,11 +6,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class NájstKnižkuMain extends Application {
+public class NajstKnihuMain extends Application {
 
         @Override
         public void start(Stage primaryStage) throws Exception{
-            Parent root = FXMLLoader.load(getClass().getResource("NájstKnižku.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("NasjtKnihu.fxml"));
             primaryStage.setTitle("Vyhladať Knihu");
             primaryStage.setScene(new Scene(root, 600, 400));
             primaryStage.show();
@@ -23,4 +23,4 @@ public class NájstKnižkuMain extends Application {
 
     }
 
-}
+
