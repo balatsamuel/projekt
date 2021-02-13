@@ -7,6 +7,7 @@
             fx:controller="Uzivatelia.UzivateliaController"
             prefHeight="400.0" prefWidth="600.0">
 
+
     <center>
         <GridPane alignment="CENTER_LEFT">
 
