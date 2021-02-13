@@ -1,4 +1,4 @@
-package kniznica;
+package KniznicaMain;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,13 +7,13 @@ import javafx.stage.Stage;
 
 
 
-    public class Main extends Application {
+    public class KniznicaMain extends Application {
 
         @Override
         public void start(Stage primaryStage) throws Exception{
-            Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("Kniznica.fxml"));
                     primaryStage.setTitle("Knižnica");
-                            primaryStage.setScene(new Scene(root, 300, 275));
+                            primaryStage.setScene(new Scene(root, 600, 400));
             primaryStage.show();
         }
 

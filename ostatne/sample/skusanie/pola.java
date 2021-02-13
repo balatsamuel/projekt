@@ -1,6 +1,4 @@
-package database;
-
-import java.lang.reflect.Array;
+package ostatne.sample.skusanie;
 
 public class pola {
 
@@ -14,6 +12,15 @@ public class pola {
         pole[0] = 15;
 
         System.out.println(pole[0]);
+
+        String[] poooole = {"juro","samo","ondro","denis"};
+
+    String[] pooole =new String[4];
+
+        System.out.println(poooole[1]);
+        poooole[2]= "žigo";
+
+
 
     }
 }

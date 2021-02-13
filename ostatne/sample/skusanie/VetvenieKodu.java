@@ -1,4 +1,4 @@
-package skusanie;
+package ostatne.sample.skusanie;
 
 public class VetvenieKodu {
 
